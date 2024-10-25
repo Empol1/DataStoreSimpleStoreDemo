@@ -92,16 +92,18 @@ fun DataStoreDemo(modifier: Modifier) {
                 store.saveHighScore(1)
             }
 
-        }) {
+        })
+
+        {
             Text("Save Values")
         }
     }
 }
 
 
-// 1 Done: Modify the App to store a high score and a dark mode preference
-// 2 Done: Modify the APP to store the username through a text field
-// 3 Done: Modify the App to save the username when the button is clicked
-// 4 Done: Modify the App to display the values stored in the DataStore
+// To-do 1 Done: Modify the App to store a high score and a dark mode preference
+// To-do 2 Done: Modify the APP to store the username through a text field
+// To-do 3 Done: Modify the App to save the username when the button is clicked
+// To-do 4 Done: Modify the App to display the values stored in the DataStore
 
 
